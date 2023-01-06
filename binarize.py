@@ -69,7 +69,7 @@ def warp(img):
 
 if __name__=="__main__":
     img_name = input("Image name:\n")
-    img = cv2.imread(img_name)
+    img = cv2.imread('image/' + img_name)
     img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     th, bin_img = cv2.threshold(img_gray, 128, 255, cv2.THRESH_BINARY)
     #255 (free space, white) or 0 (occupied, black)
@@ -83,4 +83,4 @@ if __name__=="__main__":
     warped = warp(cropped)
     cv2.imshow('warped', warped)
     cv2.waitKey(0)    
-    cv2.imwrite('binarized_map.jpg', warped)
+    cv2.imwrite('output/binarized_' + img_name, warped)
