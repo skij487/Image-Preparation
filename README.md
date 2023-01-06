@@ -9,7 +9,7 @@ Result of Crop, warp and binarization.
 ![Binarized_Image](https://github.com/skij487/Image-Preparation/blob/main/output/binarized_test_image.jpg)
 
 ## How to Run
-Clone repository and put desired image into the folder named 'image'.
+Clone repository and put desired image into the folder named 'images'.
 
 Run binarize.py.
 
