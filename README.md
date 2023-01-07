@@ -3,6 +3,7 @@
 Crop image and stretch it to fit a rectangular shape.
 
 Original Image.
+
 ![Original_Image](https://github.com/skij487/Image-Preparation/blob/main/images/test_image.jpg)
 
 Result of Crop, warp and binarization.
